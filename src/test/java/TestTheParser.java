@@ -48,7 +48,7 @@ public class TestTheParser {
 	@Test
 	public void testParserInputZero() throws IOException {
 		System.out.println("testing class declaration ===================================================================");
-		File file = new File("src/main/resources/inputClass.txt");
+		File file = new File("src/main/resources/input.txt");
 		TheLexer lexer = new TheLexer(file);
 		lexer.run();
 		Vector<TheToken> tokens = lexer.getTokens();
